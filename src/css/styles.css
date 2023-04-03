@@ -14,7 +14,47 @@ body {
 
 #search-box {
   font: inherit;
-  padding: 8px;
+  padding: 12px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin: 30px 0 60px 30px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.country-list__flag {
+  margin-right: 16px;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.country-info__name {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.country-info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-info-list_item {
+  margin-bottom: 15px;
 }
